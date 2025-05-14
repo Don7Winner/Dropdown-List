@@ -4,6 +4,7 @@
   margin: 0;
 }
 body {
+  font-family: "Epilogue", sans-serif;
   font-size: 18px;
   font-weight: 500;
   display: grid;
@@ -76,7 +77,7 @@ li img {
   padding: 0 7rem;
 }
 h1 {
-  font-size: 5rem;
+  font-size: 4.2rem;
   font-weight: 700;
   width: 450px;
   line-height: 0.8;
