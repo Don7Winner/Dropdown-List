@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Intro section with dropdown navigation</title>
+
+    <link rel="stylesheet" href="css/Stylesheet.css" />
+    <link rel="stylesheet" href="css/Responsiveness.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <img src="images/logo.svg" alt="logo" class="logo" />
+        <div class="nav-list">
+          <ul>
+            <div class="feature-container">
+              <li class="features">
+                Features
+                <img
+                  src="images/icon-arrow-down.svg"
+                  alt="down arrow"
+                  class="arrow-down"
+                />
+                <img
+                  src="images/icon-arrow-up.svg"
+                  alt="up arrow"
+                  class="arrow-up"
+                />
+              </li>
+              <div class="list-item-feature dropdownlist">
+                <ul>
+                  <li>
+                    <img src="images/icon-todo.svg" alt="todo icon" /> Todo List
+                  </li>
+                  <li>
+                    <img src="images/icon-calendar.svg" alt="icon-calendar" />
+                    Calendar
+                  </li>
+                  <li>
+                    <img
+                      src="images/icon-reminders.svg"
+                      alt="icon-reminders"
+                    />Reminders
+                  </li>
+                  <li>
+                    <img
+                      src="images/icon-planning.svg"
+                      alt="icon-planning"
+                    />Planning
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="company-container">
+              <li class="company">
+                Company
+                <img
+                  src="images/icon-arrow-down.svg"
+                  alt="down arrow"
+                  class="arrow-down"
+                />
+                <img
+                  src="images/icon-arrow-up.svg"
+                  alt="up arrow"
+                  class="arrow-up"
+                />
+              </li>
+              <div class="list-item-company dropdownlist">
+                <ul>
+                  <li>History</li>
+                  <li>Our Team</li>
+                  <li>Blog</li>
+                </ul>
+              </div>
+            </div>
+            <li class="Career">Careers</li>
+            <li>About</li>
+          </ul>
+          <ul class="SignUp">
+            <li>Login</li>
+            <li>Register</li>
+          </ul>
+        </div>
+        <img src="images/icon-menu.svg" alt="menu" id="menu" />
+      </nav>
+      <div class="main-container">
+        <div class="description">
+          <h1>Make remote work</h1>
+
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button>Learn more</button>
+          <div class="logo-container">
+            <img src="images/client-databiz.svg" alt="databiz" />
+            <img src="images/client-audiophile.svg" alt="audiophile" />
+            <img src="images/client-meet.svg" alt="meet" />
+            <img src="images/client-maker.svg" alt="marker" />
+          </div>
+        </div>
+        <div class="img-container">
+          <img src="images/image-hero-desktop.png" alt="hero image" />
+          <img src="images/image-hero-mobile.png" alt="hero image" />
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="CSS/index.js"></script>
+  </body>
+</html>

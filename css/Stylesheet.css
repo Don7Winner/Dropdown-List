@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 18px;
+  font-weight: 500;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+}
+main {
+  width: 100vw;
+  padding: 0 3rem;
+}
+nav {
+  color: hsl(0, 0%, 41%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0 5rem;
+}
+nav ul li:hover {
+  color: hsl(0, 0%, 8%);
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 100%;
+}
+nav li {
+  margin-left: 1rem;
+}
+ul {
+  display: flex;
+  /* gap: 2rem; */
+  list-style: none;
+}
+ul li {
+  cursor: pointer;
+}
+.logo {
+  margin-right: 2rem;
+}
+.arrow-up {
+  display: none;
+}
+.company img:last-child {
+  /* display: none; */
+}
+.company {
+  display: flex;
+  align-items: center;
+}
+.features {
+  display: flex;
+  align-items: center;
+}
+li img {
+  cursor: pointer;
+}
+.SignUp p {
+  cursor: pointer;
+}
+.SignUp p:last-child {
+  border: 1px solid hsl(0, 0%, 8%);
+  border-radius: 0.8rem;
+  padding: 0.3rem 0.6rem;
+}
+.main-container {
+  display: flex;
+  gap: 3rem;
+  padding: 0 7rem;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  width: 450px;
+  line-height: 0.8;
+  margin-bottom: 3rem;
+}
+.description p {
+  color: hsl(0, 0%, 41%);
+  width: 300px;
+  margin-bottom: 3rem;
+}
+.description {
+  flex-basis: 100%;
+  margin-top: 5rem;
+}
+.img-container {
+  height: 500px;
+  width: 200px;
+  flex-basis: 100%;
+}
+.img-container img {
+  height: 100%;
+  width: 100%;
+}
+.img-container img:last-child {
+  display: none;
+}
+button {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 4rem;
+  padding: 0.7rem 1.2rem;
+  border: 1px solid hsl(0, 0%, 8%);
+}
+button:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+  border: 1px solid hsl(0, 0%, 8%);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+}
+.dropdownlist ul {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
+  border-radius: 0.8rem;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  position: absolute;
+  top: 60px;
+}
+.list-item-feature li {
+  display: flex;
+  gap: 1rem;
+}
+.list-item-feature ul {
+  left: 130px;
+}
+.list-item-company ul {
+  left: 245px;
+}
+#menu {
+  display: none;
+}

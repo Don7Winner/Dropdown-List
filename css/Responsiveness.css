@@ -1,0 +1,174 @@
+@media (max-width: 1277px) {
+  .main-container {
+    padding: 0 4rem;
+  }
+}
+@media (max-width: 1108px) {
+  main {
+    padding: 0 2rem;
+  }
+  .main-container {
+    padding: 0 2rem;
+  }
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    width: 350px;
+  }
+  .logo-container {
+    width: 350px;
+  }
+}
+@media (max-width: 853px) {
+  .main-container {
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 811px) {
+  div .description {
+    width: 300px;
+  }
+  h1 {
+    font-size: 3.4rem;
+    width: 300px;
+  }
+  .logo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1rem;
+  }
+  .logo-container img:nth-child(2) {
+    justify-self: center;
+  }
+  .SignUp {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+@media (max-width: 720px) {
+  main {
+    padding: 0 1rem;
+  }
+  nav {
+    margin-top: 2rem;
+  }
+  .nav-list {
+    align-self: flex-end;
+  }
+  .nav-list {
+    display: none;
+    background-color: #fff;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2rem 1rem 0 3rem;
+    height: 940px;
+    justify-content: center;
+  }
+  .SignUp {
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+  ul {
+    flex-direction: column;
+  }
+  nav img:last-child {
+    display: block;
+    /* height: 15px; */
+  }
+  .dropdownlist ul {
+    box-shadow: none;
+    border-radius: 0;
+    gap: 0.5rem;
+    position: relative;
+  }
+  .list-item-feature ul {
+    top: 10px;
+    left: -20px;
+    gap: 1rem;
+  }
+  .list-item-company ul {
+    top: 10px;
+    left: -20px;
+    gap: 1rem;
+  }
+  .main-container {
+    flex-direction: column;
+    gap: 0;
+  }
+  div .description {
+    text-align: center;
+    width: 100%;
+    order: 1;
+  }
+  .img-container img:first-child {
+    display: none;
+  }
+  #menu {
+    display: block;
+    width: 30px;
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .img-container img:last-child {
+    display: block;
+    width: 500px;
+  }
+  h1 {
+    width: 100%;
+  }
+  .description p {
+    width: 100%;
+  }
+  .logo-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .feature-container {
+    margin-bottom: 2rem;
+  }
+  .company-container {
+    margin-bottom: 2rem;
+  }
+  .Career {
+    margin-bottom: 2rem;
+  }
+  .company {
+    display: flex;
+    align-items: center;
+  }
+  .features {
+    display: flex;
+    gap: 0;
+  }
+}
+@media (max-width: 569px) {
+  .img-container img:last-child {
+    width: 450px;
+  }
+  .logo-container img {
+    width: 60px;
+  }
+}
+@media (max-width: 500px) {
+  .img-container img:last-child {
+    width: 400px;
+  }
+}
+@media (max-width: 420px) {
+  .img-container img:last-child {
+    width: 350px;
+  }
+}
+@media (max-width: 367px) {
+  .img-container img:last-child {
+    width: 300px;
+  }
+}
