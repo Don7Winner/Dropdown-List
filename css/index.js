@@ -2,6 +2,7 @@ $(document).ready(() => {
   // Hide dropdowns and arrow-up icons initially
   $(".dropdownlist").hide();
   $(".arrow-up").hide();
+  $("#close-menu").hide();
 
   // Click handler for Features
   $(".features").click(() => {
@@ -42,5 +43,10 @@ $(document).ready(() => {
   // Click handler for menu
   $("#menu").click(() => {
     $(".nav-list").css("display", "block");
+    $("#close-menu").show();
+  });
+  $("#close-menu").click(() => {
+    $(".nav-list").css("display", "none");
+    $("#close-menu").hide();
   });
 });
